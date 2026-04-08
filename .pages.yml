@@ -19,6 +19,14 @@ content:
       - { name: title, label: Title, type: string, required: true }
       - { name: filename, label: Filename Override, type: string }
       - { name: description, label: Description, type: string }
+      - name: params
+        label: Parameters
+        type: object
+        fields:
+          - name: images
+            label: Cover Images
+            list: true
+            type: image
       - name: body
         label: Body
         type: rich-text
@@ -37,14 +45,6 @@ content:
       - name: prev
         label: Previous page (slug)
         type: string
-      - name: params
-        label: Parameters
-        type: object
-        fields:
-          - name: images
-            label: Cover Images
-            list: true
-            type: image
       - name: sidebar
         label: Sidebar Options
         type: object
