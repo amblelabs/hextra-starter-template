@@ -15,7 +15,10 @@ content:
       type: file
       path: data/en/termbase.yaml
       format: yaml
-      list: true
+      list: 
+        collapsible:
+          summary: "{term}"
+          collapsed: true
       fields:
         - name: term
           type: string
