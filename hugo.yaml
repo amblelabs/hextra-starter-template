@@ -10,7 +10,7 @@ module:
     - path: github.com/imfing/hextra
 
 outputs:
-  home: [llms]
+  home: [html, llms]
 
 markup:
   # allow raw html
