@@ -1,0 +1,11 @@
+disableKinds:
+- sitemap
+- taxonomy
+- term
+outputs:
+  home:
+  - html
+
+security:
+  funcs:
+    os: [ "os.Stat" ]
