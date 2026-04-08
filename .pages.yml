@@ -18,8 +18,15 @@ content:
       - { name: title, label: Title, type: string, required: true }
       - { name: filename, label: Filename Override, type: string }
       - { name: description, label: Description, type: string }
-      - name: blocks
-        component: any-block
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          #media: content_images
+          #path: public/images/blog
+          rename: true
+      #- name: blocks
+      #  component: any-block
       - name: weight
         label: Weight
         type: number
