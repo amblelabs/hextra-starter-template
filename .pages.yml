@@ -10,8 +10,8 @@ content:
     label: Wiki (EN)
     type: collection
     path: content/en
-    format: yaml
-    filename: "{primary}.yaml"
+    format: markdown
+    filename: "{primary}.md"
     view:
       fields: [ title, filename ]
     fields:
