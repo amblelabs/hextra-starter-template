@@ -1,9 +1,13 @@
 ---
 title: My Site
 toc: false
+sidebar:
+  open: false
+  exclude: false
 ---
-
 This is the landing page.
+
+[About](/about)
 
 ## Explore
 
