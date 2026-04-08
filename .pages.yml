@@ -15,7 +15,7 @@ content:
     view:
       fields: 
         - title
-        - filename
+        - primary
     fields:
       - { name: title, label: Title, type: string, required: true }
       #- { name: filename, label: Filename Override, type: string }
