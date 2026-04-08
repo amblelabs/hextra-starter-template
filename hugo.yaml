@@ -62,7 +62,8 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/amblelabs/hextra-starter-template/edit/main/content"
+    base: "https://app.pagescms.org/amblelabs/ait-wiki/main/collection/wiki/edit/content"
+    sep: "%2F"
 
   search:
     enable: true
