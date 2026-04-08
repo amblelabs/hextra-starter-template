@@ -27,7 +27,7 @@ or
   <abbr title="{{ .definition | plainify }}">
     <a
       {{- if $link -}}
-        href="{{ $href }}"
+        href="{{ $link }}"
         {{ with $external }}target="_blank" rel="noreferrer"{{ end -}}
       {{- end -}}
       {{- $entry -}}
