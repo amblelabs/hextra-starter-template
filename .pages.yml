@@ -10,7 +10,7 @@ content:
     label: Wiki (EN)
     type: collection
     path: content/en
-    format: markdown
+    format: yaml-frontmatter
     filename: "{primary}.md"
     view:
       fields: [ title, filename ]
